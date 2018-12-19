@@ -6,7 +6,7 @@ from Projectile import Projectile
 def get_inputs():
     a = float(input("Enter the launch angle (in degrees): "))
     v = float(input("Enter the initial velocity (in meters/sec): "))
-    h = float(input("Enter the initil height (in meters): "))
+    h = float(input("Enter the initial height (in meters): "))
     t = float(input("Enter the time interval between position calculations: "))
     return a, v, h, t
 
